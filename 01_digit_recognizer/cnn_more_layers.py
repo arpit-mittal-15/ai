@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+import tensorflow as tf# type: ignore
 
 # Load and split dataset
 df = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')

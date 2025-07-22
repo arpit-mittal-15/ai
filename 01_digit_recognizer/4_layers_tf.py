@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import tensorflow as tf
+import tensorflow as tf # type: ignore
 
 # Load data from Kaggle Digit Recognizer CSV
 df = pd.read_csv("/kaggle/input/digit-recognizer/train.csv")
